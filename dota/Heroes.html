@@ -1,0 +1,1151 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="shortcut icon" href="Sliki/index.png" type="image/png">
+    <title>Heroes</title>
+    <style>
+    body{
+      background-color: #0d0d0d;
+    }
+    .ramka{
+      border:1px solid black;
+      border-radius: 5px;
+      background-color: black;
+      margin:auto;
+      margin-top:10px;
+      color:white;
+    }
+    .ramka1{
+      border:1px solid #CC0000;
+      border-radius: 5px;
+      background-color: #47515b;
+      color:white;
+      margin-top:10px;
+      margin-bottom:20px;
+      box-shadow: 0px 0px 80px black;
+    }
+    .sliki{
+      width:80px;
+      height:40px;
+      box-shadow: 0px 0px 30px black;
+    }
+    .marg{
+      margin-top:5px;
+    }
+    p{
+      margin:4px;
+    }
+    #prva,#vtora,#treta,#ulty{
+      box-shadow: 0px 0px 30px black;
+    }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-center" style="padding-bottom:10px;">
+    <div class="container-fluid" >
+
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+
+        </button>
+        <a class="navbar-brand" href="Home.html"><img src="Sliki/logo.png"></img></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+        <ul class="nav navbar-nav">
+          <li><a href="Home.html">Home<span class="sr-only"></a></li>
+          <li class="active"><a href="Heroes.html">Heroes</a></li>
+  		<li  ><a href="Items.html">Items</a></li>
+  		<li><a href="Guides.html">Guides</a></li>
+  		<li><a href="Quiz.html">Quiz</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<div class="container col-lg-10 col-lg-offset-1 ramka1" id="heroes">
+  <div class="row col-lg-12 ramka" >
+    <h3 style="text-align:center;" id="ime">Choose a hero</h3>
+    <hr style="width:60%;"/>
+    <p style="text-align:center;" class="nesto"></p>
+  </div>
+  <div class="row col-lg-12">
+  <div class="col-lg-4" >
+    <h4 style="text-align:center;"><img src="Sliki/overviewicon_str.png"></img>Strength</h4>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Melee - Support - Initiator - Disabler - Nuker" alt="Earthshaker" src="Sliki/earthshaker_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Initiator - Durable - Nuker" alt="Sven" src="Sliki/sven_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Nuker - Pusher - Initiator - Durable - Disabler" alt="Tiny" src="Sliki/tiny_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Initiator - Durable - Nuker" alt="Kunkka"  src="Sliki/kunkka_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg">
+      <div class="col-lg-3" >
+        <img rel="Melee - Initiator - Disabler - Durable - Nuke" alt="Beastmaster" src="Sliki/beastmaster_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Pusher - Durable - Disabler - Initiator - Nuker" alt="Dragon Knight" src="Sliki/dragon_knight_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Initiator - Disabler - Durable - Nuker" alt="Clockwerk" src="Sliki/rattletrap_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Support - Durable - Nuker" alt="Omniknight" src="Sliki/omniknight_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Ranged - Carry - Durable - Initiator" alt="Huskar" src="Sliki/huskar_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Support - Durable - Disabler - Initiator - Nuker" alt="Alchemist" src="Sliki/alchemist_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Initiator - Durable - Disabler - Nuker" alt="Brewmaster" src="Sliki/brewmaster_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Support - Initiator - Durable - Disabler - Escape" alt="Treant Protector" src="Sliki/treant_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Ranged - Support - Escape - Nuker" alt="Io" src="Sliki/wisp_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Durable - Initiator - Disabler - Nuker - Escape" alt="Centaur Warrunner" src="Sliki/centaur_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Nuker - Durable - Escape" alt="Timbersaw" src="Sliki/shredder_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Durable - Initiator - Nuker" alt="Bristleback" src="Sliki/bristleback_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Melee - Initiator - Disabler - Nuker" alt="Tusk" src="Sliki/tusk_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Initiator - Disabler - Nuker - Durable" alt="Elder Titan" src="Sliki/elder_titan_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Initiator - Durable - Nuker" alt="Legion Commander" src="Sliki/legion_commander_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Nuker - Escape - Disabler - Initiator - Durable" alt="Earth Spirit" src="Sliki/earth_spirit_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Ranged - Support - Nuker - Initiator - Escape - Disabler" alt="Phoenix" src="Sliki/phoenix_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Melee - Initiator - Durable - Disabler - Jungler" alt="Axe" src="Sliki/axe_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Disabler - Initiator - Durable - Nuker" alt="Pudge" src="Sliki/pudge_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Initiator - Disabler - Nuker - Escape - Jungler" alt="Sand King" src="Sliki/sand_king_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Durable - Initiator - Disabler - Escape" alt="Slardar" src="Sliki/slardar_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Melee - Initiator - Durable - Disabler - Nuker" alt="Tidehunter" src="Sliki/tidehunter_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Support - Durable - Disabler - Initiator" alt="Wraith King" src="Sliki/skeleton_king_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Durable - Jungler - Escape - Disabler" alt="Lifestealer" src="Sliki/life_stealer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Initiator - Durable - Disabler - Nuker" alt="Night Stalker" src="Sliki/night_stalker_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3" >
+        <img rel="Melee - Carry - Disabler - Initiator - Durable - Nuker" alt="Doom" src="Sliki/doom_bringer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Initiator - Disabler - Durable - Escape" alt="Spirit Breaker" src="Sliki/spirit_breaker_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Pusher - Jungler - Durable - Escape" alt="Lycan" src="Sliki/lycan_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Durable - Pusher - Initiator" alt="Chaos Knight" src="Sliki/chaos_knight_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" style="margin-bottom:15px;">
+      <div class="col-lg-3" >
+        <img rel="Melee - Support - Durable - Disabler - Nuker" alt="Undying" src="Sliki/undying_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Initiator - Disabler - Nuker - Escape" alt="Magnus" src="Sliki/magnataur_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Support - Carry - Durable" alt="Abaddon" src="Sliki/abaddon_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Support - Nuker - Disabler - Durable - Escape" alt="Underlord" src="Sliki/abyssal_underlord_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <h4 style="text-align:center;"><img src="Sliki/overviewicon_agi.png"></img>Agility</h4>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Nuker" alt="Anti-Mage"  src="Sliki/antimage_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Disabler - Pusher" alt="Drow Ranger" src="Sliki/drow_ranger_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Pusher - Escape" alt="Juggernaut" src="Sliki/juggernaut_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Initiator - Durable - Nuker" alt="Anti-Mage" src="Sliki/mirana_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape - Durable - Nuker - Disabler" alt="Morphling" src="Sliki/morphling_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Pusher - Nuker" alt="Phantom Lancer" src="Sliki/phantom_lancer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Initiator - Disabler - Nuker - Escape" alt="Vengeful Spirit" src="Sliki/vengefulspirit_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Disabler" alt="Riki" src="Sliki/riki_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker" alt="Sniper" src="Sliki/sniper_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape" alt="Templar Assassin" src="Sliki/templar_assassin_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Pusher" alt="Luna" src="Sliki/luna_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Pusher" alt="Bounty Hunter" src="Sliki/bounty_hunter_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Jungler - Durable - Disabler" alt="Ursa" src="Sliki/ursa_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Disabler" alt="Gyrocopter" src="Sliki/gyrocopter_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Pusher - Jungler - Durable" alt="Lone Druid" src="Sliki/lone_druid_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Support - Pusher - Disabler - Initiator - Escape" alt="Naga Siren" src="Sliki/naga_siren_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Pusher - Disabler - Durable" alt="Troll Warlord" src="Sliki/troll_warlord_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Nuker - Disabler - Initiator" alt="Ember Spirit" src="Sliki/ember_spirit_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Disabler - Initiator" alt="Monkey King" src="Sliki/monkey_king_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Disabler - Jungler - Nuker - Initiator" alt="Bloodseeker" src="Sliki/bloodseeker_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker" alt="Shadow Fiend" src="Sliki/nevermore_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Durable - Nuker - Pusher" alt="Razor" src="Sliki/razor_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Initiator - Pusher - Disabler" alt="Venomancer" src="Sliki/venomancer_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Initiator - Disabler - Escape - Durable" alt="Faceless Void" src="Sliki/faceless_void_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape" alt="Phantom Assassin" src="Sliki/phantom_assassin_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Durable - Initiator - Disabler" alt="Viper" src="Sliki/viper_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape - Pusher" alt="Clinkz" src="Sliki/clinkz_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Pusher - Escape - Nuker" alt="Broodmother" src="Sliki/broodmother_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape" alt="Weaver" src="Sliki/weaver_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Durable - Escape" alt="Spectre" src="Sliki/spectre_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Nuker - Disabler - Initiator - Pusher" alt="Meepo" src="Sliki/meepo_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Disabler - Nuker - Initiator - Escape" alt="Nyx Assassin" src="Sliki/nyx_assassin_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Escape - Disabler - Nuker" alt="Slark" src="Sliki/slark_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Disabler - Durable" alt="Medusa" src="Sliki/medusa_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Carry - Pusher - Nuker" alt="Terrorblade" src="Sliki/terrorblade_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape - Nuker" alt="Arc Warden" src="Sliki/arc_warden_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <h4 style="text-align:center;"><img src="Sliki/overviewicon_int.png"></img>Intelligence</h4>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker - Jungler" alt="Crystal Maiden" src="Sliki/crystal_maiden_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Initiator - Disabler - Escape - Nuker" alt="Puck" src="Sliki/puck_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Escape - Nuker - Initiator - Disabler" alt="Storm Spirit" src="Sliki/storm_spirit_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Support - Disabler - Escape - Nuker" alt="Windranger" src="Sliki/windrunner_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Nuker" alt="Zeus" src="Sliki/zuus_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Carry - Nuker - Disabler" alt="Lina" src="Sliki/lina_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Pusher - Disabler - Nuker - Initiator" alt="Shadow Shaman" src="Sliki/shadow_shaman_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Pusher" alt="Tinker" src="Sliki/tinker_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Jungler - Pusher - Escape - Nuker" alt="Nature's Prophet" src="Sliki/furion_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Jungler - Pusher - Durable - Disabler" alt="Enchantress" src="Sliki/enchantress_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Pusher - Disabler" alt="Jakiro" src="Sliki/jakiro_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Jungler - Pusher" alt="Chen" src="Sliki/chen_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Support - Disabler - Initiator - Nuker" alt="Silencer" src="Sliki/silencer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Melee - Support - Nuker - Disabler - Durable - Initiator" alt="Ogre Magi" src="Sliki/ogre_magi_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker" alt="Rubick" src="Sliki/rubick_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker - Initiator" alt="Disruptor" src="Sliki/disruptor_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Disabler - Jungler" alt="Keeper of the Light" src="Sliki/keeper_of_the_light_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Disabler" alt="Skywrath Mage" src="Sliki/skywrath_mage_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Disabler - Escape" alt="Oracle" src="Sliki/oracle_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Nuker - Disabler" alt="Techies" src="Sliki/techies_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker - Durable" alt="Bane" src="Sliki/bane_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker" alt="Lich" src="Sliki/lich_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker - Initiator" alt="Lion" src="Sliki/lion_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Disabler" alt="Witch Doctor" src="Sliki/witch_doctor_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Disabler - Jungler - Initiator - Pusher" alt="Enigma" src="Sliki/enigma_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Durable - Disabler" alt="Necrophos" src="Sliki/necrolyte_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Initiator - Disabler" alt="Warlock" src="Sliki/warlock_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Escape" alt="Queen of Pain" src="Sliki/queenofpain_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Pusher - Nuker - Disabler" alt="Death Prophet" src="Sliki/death_prophet_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Nuker - Pusher" alt="Pugna" src="Sliki/pugna_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Disabler" alt="Dazzle" src="Sliki/dazzle_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Support - Nuker - Pusher - Disabler" alt="Leshrac" src="Sliki/leshrac_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Melee - Initiator - Jungler - Escape - Disabler" alt="Dark Seer" src="Sliki/dark_seer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Initiator - Jungler - Disabler - Escape" alt="Batrider" src="Sliki/batrider_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker" alt="Ancient Apparition" src="Sliki/ancient_apparition_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Disabler - Escape - Pusher" alt="Invoker" src="Sliki/invoker_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+    <div class="row marg" >
+      <div class="col-lg-3">
+        <img rel="Ranged - Carry - Nuker - Disabler" alt="Outworld Devourer" src="Sliki/obsidian_destroyer_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Initiator - Nuker" alt="Shadow Demon" src="Sliki/shadow_demon_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Nuker - Durable - Disabler - Pusher" alt="Visage" src="Sliki/visage_hphover.png" class="sliki"></img>
+      </div>
+      <div class="col-lg-3">
+        <img rel="Ranged - Support - Disabler - Nuker" alt="Winter Wyvern" src="Sliki/winter_wyvern_hphover.png" class="sliki"></img>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container col-lg-10 col-lg-offset-1 ramka1" id="heroes1">
+  <div style="margin-top:10px;margin-bottom:10px" class="row col-lg-12" >
+    <div class="col-lg-4">
+    <h2 style="text-align:center;" id="heroj"></h2>
+    <img  id="slikap" class="center-block" src="" style="margin-top:10px;margin-bottom:10px"></img>
+    <p style="text-align:center;" class="nesto"></p>
+    </div>
+    <div class="col-lg-8">
+      <div style="margin-top:50px" class="media">
+    <div class="media-left">
+        <img id="prva" class="media-object" src=""></img>
+    </div>
+    <div class="media-body">
+      <h4 id="prvat" class="media-heading"></h4>
+      <p id="prvatm"></p>
+    </div>
+    <div class="media-left">
+        <img id="vtora" class="media-object" src=""></img>
+    </div>
+    <div class="media-body">
+      <h4 id="vtorat" class="media-heading"></h4>
+      <p id="vtoratm"></p>
+    </div>
+    <div class="media-left">
+        <img id="treta" class="media-object" src=""></img>
+    </div>
+    <div class="media-body">
+      <h4 id="tretat" class="media-heading"></h4>
+      <p id="tretatm"></p>
+    </div>
+    <div class="media-left">
+        <img id="ulty" class="media-object" src=""></img>
+    </div>
+    <div class="media-body">
+      <h4 id="ultyt" class="media-heading"></h4>
+      <p id="ultytm"></p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+$(document).ready(function(){
+  $('#heroes1').hide();
+  $(".sliki").hover(function(){
+		$(this).animate({height:50, width:90, top: '-=5', left: '-=5' },100);
+    $(this).css({border: '0 solid white'}).animate({
+        borderWidth: 4
+    }, 100);
+    var ime=$(this).attr('alt');
+    var nesto=$(this).attr('rel');
+    $('#ime').html(ime);
+    $('.nesto').html(nesto);
+		},function(){
+		$(this).animate({height:40, width:80, top: '+=5', left: '+=5' },100);
+    $(this).animate({
+       borderWidth: 0
+   }, 100);
+	});
+  $('.sliki').click(function(){
+    var imee=$(this).attr('alt');
+    if(imee==="Earthshaker"){
+    var nestoo=$(this).attr('rel');
+    $('#heroj').html(imee);
+    $('.nesto').html(nestoo);
+    $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+    $("#heroes").hide();
+    $('#heroes1').show();
+    $('#prva').attr("src","Sliki1/"+imee+"_Fissure_hp1.png");
+    $('#vtora').attr("src","Sliki1/"+imee+"_Enchant totem_hp1.png");
+    $('#treta').attr("src","Sliki1/"+imee+"_Aftershock_hp1.png");
+    $('#ulty').attr("src","Sliki1/"+imee+"_Echo slam_hp1.png");
+    var prvac = $('#prva').attr("src");
+    var vtorac = $('#vtora').attr("src");
+    var tretac = $('#treta').attr("src");
+    var ultyc = $('#ulty').attr("src");
+    var prva = prvac.split("_")
+    var vtora = vtorac.split("_");
+    var treta = tretac.split("_");
+    var ulty = ultyc.split("_");
+    $("#prvat").html(prva[1]);
+    $("#vtorat").html(vtora[1]);
+    $("#tretat").html(treta[1]);
+    $("#ultyt").html(ulty[1]);
+    $("#prvatm").text("Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.");
+    $("#vtoratm").text("Empowers Earthshaker's totem, causing it to deal extra damage on the next attack. Upgradable by Aghanim's Scepter.");
+    $("#tretatm").text("Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.");
+    $("#ultytm").text("Shockwaves travel through the ground, damaging enemy units. Each enemy hit causes an echo to damage nearby units.");
+    }else if(imee==="Sven"){
+    var nestoo=$(this).attr('rel');
+    $('#heroj').html(imee);
+    $('.nesto').html(nestoo);
+    $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+    $("#heroes").hide();
+    $('#heroes1').show();
+    $('#prva').attr("src","Sliki1/"+imee+"_Storm bolt_hp1.png");
+    $('#vtora').attr("src","Sliki1/"+imee+"_Great cleave_hp1.png");
+    $('#treta').attr("src","Sliki1/"+imee+"_Warcry_hp1.png");
+    $('#ulty').attr("src","Sliki1/"+imee+"_Gods strength_hp1.png");
+    var prvac = $('#prva').attr("src");
+    var vtorac = $('#vtora').attr("src");
+    var tretac = $('#treta').attr("src");
+    var ultyc = $('#ulty').attr("src");
+    var prva = prvac.split("_")
+    var vtora = vtorac.split("_");
+    var treta = tretac.split("_");
+    var ulty = ultyc.split("_");
+    $("#prvat").html(prva[1]);
+    $("#vtorat").html(vtora[1]);
+    $("#tretat").html(treta[1]);
+    $("#ultyt").html(ulty[1]);
+    $("#prvatm").text("Sven unleashes his magical gauntlet that deals damage and stuns enemy units.");
+    $("#vtoratm").text("Sven strikes with great force, cleaving all nearby enemy units with his attack.");
+    $("#tretatm").text("Sven's Warcry heartens his allies for battle, increasing their movement speed and armor. Lasts 8 seconds.");
+    $("#ultytm").text("Sven channels his rogue strength, granting bonus damage for 25 seconds. Upgradable by Aghanim's Scepter.");
+  }else if(imee==="Tiny"){
+  var nestoo=$(this).attr('rel');
+  $('#heroj').html(imee);
+  $('.nesto').html(nestoo);
+  $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+  $("#heroes").hide();
+  $('#heroes1').show();
+  $('#prva').attr("src","Sliki1/"+imee+"_Avalanche_hp1.png");
+  $('#vtora').attr("src","Sliki1/"+imee+"_Toss_hp1.png");
+  $('#treta').attr("src","Sliki1/"+imee+"_Craggy exterior_hp1.png");
+  $('#ulty').attr("src","Sliki1/"+imee+"_Grow_hp1.png");
+  var prvac = $('#prva').attr("src");
+  var vtorac = $('#vtora').attr("src");
+  var tretac = $('#treta').attr("src");
+  var ultyc = $('#ulty').attr("src");
+  var prva = prvac.split("_")
+  var vtora = vtorac.split("_");
+  var treta = tretac.split("_");
+  var ulty = ultyc.split("_");
+  $("#prvat").html(prva[1]);
+  $("#vtorat").html(vtora[1]);
+  $("#tretat").html(treta[1]);
+  $("#ultyt").html(ulty[1]);
+  $("#prvatm").text("Bombards an area with rocks, stunning and damaging enemy land units.");
+  $("#vtoratm").text("Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land. If the tossed unit is an enemy, it will take an extra 20% damage. Toss does more damage with each level in Grow.");
+  $("#tretatm").text("Causes damage to bounce back on Tiny's attackers. Melee enemies that attack Tiny have a chance of being stunned.");
+  $("#ultytm").text("Tiny gains craggy mass that increases his power at the cost of his attack speed. Increases Tossed unit damage and improves movement speed. Upgradable by Aghanim's Scepter.");
+}else if(imee==="Kunkka"){
+  var nestoo=$(this).attr('rel');
+  $('#heroj').html(imee);
+  $('.nesto').html(nestoo);
+  $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+  $("#heroes").hide();
+  $('#heroes1').show();
+  $('#prva').attr("src","Sliki1/"+imee+"_Torrent_hp1.png");
+  $('#vtora').attr("src","Sliki1/"+imee+"_Tidebringer_hp1.png");
+  $('#treta').attr("src","Sliki1/"+imee+"_X marks the spot_hp1.png");
+  $('#ulty').attr("src","Sliki1/"+imee+"_Ghostship_hp1.png");
+  var prvac = $('#prva').attr("src");
+  var vtorac = $('#vtora').attr("src");
+  var tretac = $('#treta').attr("src");
+  var ultyc = $('#ulty').attr("src");
+  var prva = prvac.split("_")
+  var vtora = vtorac.split("_");
+  var treta = tretac.split("_");
+  var ulty = ultyc.split("_");
+  $("#prvat").html(prva[1]);
+  $("#vtorat").html(vtora[1]);
+  $("#tretat").html(treta[1]);
+  $("#ultyt").html(ulty[1]);
+  $("#prvatm").text("Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed.");
+  $("#vtoratm").text("Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.");
+  $("#tretatm").text("Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds. Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes.");
+  $("#ultytm").text("Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage. Upgradeable by Aghanim's Scepter.");
+  }else if(imee==="Beastmaster"){
+    var nestoo=$(this).attr('rel');
+    $('#heroj').html(imee);
+    $('.nesto').html(nestoo);
+    $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+    $("#heroes").hide();
+    $('#heroes1').show();
+    $('#prva').attr("src","Sliki1/"+imee+"_Wild axes_hp1.png");
+    $('#vtora').attr("src","Sliki1/"+imee+"_Call of the wild_hp1.png");
+    $('#treta').attr("src","Sliki1/"+imee+"_Inner beast_hp1.png");
+    $('#ulty').attr("src","Sliki1/"+imee+"_Primal roar_hp1.png");
+    var prvac = $('#prva').attr("src");
+    var vtorac = $('#vtora').attr("src");
+    var tretac = $('#treta').attr("src");
+    var ultyc = $('#ulty').attr("src");
+    var prva = prvac.split("_")
+    var vtora = vtorac.split("_");
+    var treta = tretac.split("_");
+    var ulty = ultyc.split("_");
+    $("#prvat").html(prva[1]);
+    $("#vtorat").html(vtora[1]);
+    $("#tretat").html(treta[1]);
+    $("#ultyt").html(ulty[1]);
+    $("#prvatm").text("Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path. Each axe can hit an enemy once.");
+    $("#vtoratm").text("Beastmaster calls forth a watchful Hawk to scout the battlefield. At level 3 and beyond, the hawk can become invisible after being still for 4 seconds.");
+    $("#tretatm").text("Untaps the inner fury of allies, passively increasing their attack speed.");
+    $("#ultytm").text("Beastmaster lets loose a deafening roar that stuns, and shoves open, a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Upgradable by Aghanim's Scepter.");
+  }else if(imee==="Dragon Knight"){
+      var nestoo=$(this).attr('rel');
+      $('#heroj').html(imee);
+      $('.nesto').html(nestoo);
+      $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+      $("#heroes").hide();
+      $('#heroes1').show();
+      $('#prva').attr("src","Sliki1/"+imee+"_Breathe Fire_hp1.png");
+      $('#vtora').attr("src","Sliki1/"+imee+"_Dragon tail_hp1.png");
+      $('#treta').attr("src","Sliki1/"+imee+"_Dragon blood_hp1.png");
+      $('#ulty').attr("src","Sliki1/"+imee+"_Elder dragon form_hp1.png");
+      var prvac = $('#prva').attr("src");
+      var vtorac = $('#vtora').attr("src");
+      var tretac = $('#treta').attr("src");
+      var ultyc = $('#ulty').attr("src");
+      var prva = prvac.split("_")
+      var vtora = vtorac.split("_");
+      var treta = tretac.split("_");
+      var ulty = ultyc.split("_");
+      $("#prvat").html(prva[1]);
+      $("#vtorat").html(vtora[1]);
+      $("#tretat").html(treta[1]);
+      $("#ultyt").html(ulty[1]);
+      $("#prvatm").text("Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal.");
+      $("#vtoratm").text("Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage. When in Elder Dragon Form, the cast range increases to 400.");
+      $("#tretatm").text("The life blood of the Dragon improves health regeneration and strengthens armor.");
+      $("#ultytm").text("Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers. LEVEL 1 Green Dragon - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures. LEVEL 2 Red Dragon - Splash Attack: attacks damage all enemy units in a 300 radius, with Corrosive Breath added to the targets. LEVEL 3 Blue Dragon - Frost Breath: slows movement speed by 30% and attack speed by 20 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets.");
+    }else if(imee==="Clockwerk"){
+          var nestoo=$(this).attr('rel');
+          $('#heroj').html(imee);
+          $('.nesto').html(nestoo);
+          $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+          $("#heroes").hide();
+          $('#heroes1').show();
+          $('#prva').attr("src","Sliki1/"+imee+"_Battery assault_hp1.png");
+          $('#vtora').attr("src","Sliki1/"+imee+"_Power cogs_hp1.png");
+          $('#treta').attr("src","Sliki1/"+imee+"_Rocket flare_hp1.png");
+          $('#ulty').attr("src","Sliki1/"+imee+"_Hookshot_hp1.png");
+          var prvac = $('#prva').attr("src");
+          var vtorac = $('#vtora').attr("src");
+          var tretac = $('#treta').attr("src");
+          var ultyc = $('#ulty').attr("src");
+          var prva = prvac.split("_")
+          var vtora = vtorac.split("_");
+          var treta = tretac.split("_");
+          var ulty = ultyc.split("_");
+          $("#prvat").html(prva[1]);
+          $("#vtorat").html(vtora[1]);
+          $("#tretat").html(treta[1]);
+          $("#ultyt").html(ulty[1]);
+          $("#prvatm").text("Discharges high-powered shrapnel at random nearby enemy units, dealing minor magical damage and ministun.");
+          $("#vtoratm").text("Forms a barrier of energized cogs around Clockwerk, trapping any units that are near. Enemies outside the trap that touch a cog are knocked back, losing health and mana. Once a cog has delivered a shock, it will power down. Cogs can be destroyed by enemy attacks, but Clockwerk can destroy them with just one.");
+          $("#tretatm").text("Fires a global range flare that explodes over a given area, damaging enemies and providing vision for 10 seconds.");
+          $("#ultytm").text("Fires a grappling device rapidly at the target location. If the hook hits a unit, Clockwerk launches himself into the target, stunning and dealing damage. Any enemies Clockwerk collides with along the way are damaged and stunned. Upgradable by Aghanim's Scepter.");
+        }else if(imee==="Omniknight"){
+                var nestoo=$(this).attr('rel');
+                $('#heroj').html(imee);
+                $('.nesto').html(nestoo);
+                $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                $("#heroes").hide();
+                $('#heroes1').show();
+                $('#prva').attr("src","Sliki1/"+imee+"_Purification_hp1.png");
+                $('#vtora').attr("src","Sliki1/"+imee+"_Repel_hp1.png");
+                $('#treta').attr("src","Sliki1/"+imee+"_Degen aura_hp1.png");
+                $('#ulty').attr("src","Sliki1/"+imee+"_Guardian angel_hp1.png");
+                var prvac = $('#prva').attr("src");
+                var vtorac = $('#vtora').attr("src");
+                var tretac = $('#treta').attr("src");
+                var ultyc = $('#ulty').attr("src");
+                var prva = prvac.split("_")
+                var vtora = vtorac.split("_");
+                var treta = tretac.split("_");
+                var ulty = ultyc.split("_");
+                $("#prvat").html(prva[1]);
+                $("#vtorat").html(vtora[1]);
+                $("#tretat").html(treta[1]);
+                $("#ultyt").html(ulty[1]);
+                $("#prvatm").text("Instantly heals a friendly unit and damages all nearby enemy units.");
+                $("#vtoratm").text("Creates a divine barrier around an ally which grants them Spell Immunity and 100% resistance to Magic Damage. DISPEL TYPE: Basic Dispel");
+                $("#tretatm").text("Greatly degenerates the movement and attack capabilities of enemy units that stray too near.");
+                $("#ultytm").text("Omniknight summons a Guardian Angel that grants immunity from physical damage. Upgradable by Aghanim's Scepter.");
+              }else if(imee==="Huskar"){
+                        var nestoo=$(this).attr('rel');
+                        $('#heroj').html(imee);
+                        $('.nesto').html(nestoo);
+                        $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                        $("#heroes").hide();
+                        $('#heroes1').show();
+                        $('#prva').attr("src","Sliki1/"+imee+"_Inner vitality_hp1.png");
+                        $('#vtora').attr("src","Sliki1/"+imee+"_Burning spear_hp1.png");
+                        $('#treta').attr("src","Sliki1/"+imee+"_Berserkers blood_hp1.png");
+                        $('#ulty').attr("src","Sliki1/"+imee+"_Life break_hp1.png");
+                        var prvac = $('#prva').attr("src");
+                        var vtorac = $('#vtora').attr("src");
+                        var tretac = $('#treta').attr("src");
+                        var ultyc = $('#ulty').attr("src");
+                        var prva = prvac.split("_")
+                        var vtora = vtorac.split("_");
+                        var treta = tretac.split("_");
+                        var ulty = ultyc.split("_");
+                        $("#prvat").html(prva[1]);
+                        $("#vtorat").html(vtora[1]);
+                        $("#tretat").html(treta[1]);
+                        $("#ultyt").html(ulty[1]);
+                        $("#prvatm").text("Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%, it will heal faster. Lasts 16 seconds.");
+                        $("#vtoratm").text("Huskar sets his spears aflame, dealing damage over time with his regular attack. Multiple attacks will stack additional damage. Each attack drains some of Huskar's health. Lasts 8 seconds.");
+                        $("#tretatm").text("Huskar's injuries feed his power, giving increased attack speed and magic damage resistance based on missing health.");
+                        $("#ultytm").text("Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them. While leaping, Huskar is Spell Immune. Upgradable by Aghanim's Scepter.");
+                      }else if(imee==="Alchemist"){
+                                  var nestoo=$(this).attr('rel');
+                                  $('#heroj').html(imee);
+                                  $('.nesto').html(nestoo);
+                                  $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                  $("#heroes").hide();
+                                  $('#heroes1').show();
+                                  $('#prva').attr("src","Sliki1/"+imee+"_Acid spray_hp1.png");
+                                  $('#vtora').attr("src","Sliki1/"+imee+"_Unstable concoction_hp1.png");
+                                  $('#treta').attr("src","Sliki1/"+imee+"_Goblins greed_hp1.png");
+                                  $('#ulty').attr("src","Sliki1/"+imee+"_Chemical rage_hp1.png");
+                                  var prvac = $('#prva').attr("src");
+                                  var vtorac = $('#vtora').attr("src");
+                                  var tretac = $('#treta').attr("src");
+                                  var ultyc = $('#ulty').attr("src");
+                                  var prva = prvac.split("_")
+                                  var vtora = vtorac.split("_");
+                                  var treta = tretac.split("_");
+                                  var ulty = ultyc.split("_");
+                                  $("#prvat").html(prva[1]);
+                                  $("#vtorat").html(vtora[1]);
+                                  $("#tretat").html(treta[1]);
+                                  $("#ultyt").html(ulty[1]);
+                                  $("#prvatm").text("Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.");
+                                  $("#vtoratm").text("Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.");
+                                  $("#tretatm").text("Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 30 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield 2 times their normal gold.");
+                                  $("#ultytm").text("Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.");
+                                }else if(imee==="Brewmaster"){
+                                              var nestoo=$(this).attr('rel');
+                                              $('#heroj').html(imee);
+                                              $('.nesto').html(nestoo);
+                                              $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                              $("#heroes").hide();
+                                              $('#heroes1').show();
+                                              $('#prva').attr("src","Sliki1/"+imee+"_Thunder clap_hp1.png");
+                                              $('#vtora').attr("src","Sliki1/"+imee+"_Drunken haze_hp1.png");
+                                              $('#treta').attr("src","Sliki1/"+imee+"_Drunken brawler_hp1.png");
+                                              $('#ulty').attr("src","Sliki1/"+imee+"_Primal split_hp1.png");
+                                              var prvac = $('#prva').attr("src");
+                                              var vtorac = $('#vtora').attr("src");
+                                              var tretac = $('#treta').attr("src");
+                                              var ultyc = $('#ulty').attr("src");
+                                              var prva = prvac.split("_")
+                                              var vtora = vtorac.split("_");
+                                              var treta = tretac.split("_");
+                                              var ulty = ultyc.split("_");
+                                              $("#prvat").html(prva[1]);
+                                              $("#vtorat").html(vtora[1]);
+                                              $("#tretat").html(treta[1]);
+                                              $("#ultyt").html(ulty[1]);
+                                              $("#prvatm").text("Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.");
+                                              $("#vtoratm").text("Drenches a target in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.");
+                                              $("#tretatm").text("Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds. Stacks diminishingly with other sources of Evasion.");
+                                              $("#ultytm").text("Splits Brewmaster into elements, forming 3 specialized warriors, adept at survival. If any of them survive until the end of their summoned timer, the Brewmaster is reborn. Upgradable by Aghanim's Scepter.");
+                                            }else if(imee==="Treant Protector"){
+                                                            var nestoo=$(this).attr('rel');
+                                                            $('#heroj').html(imee);
+                                                            $('.nesto').html(nestoo);
+                                                            $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                            $("#heroes").hide();
+                                                            $('#heroes1').show();
+                                                            $('#prva').attr("src","Sliki1/"+imee+"_Natures guise_hp1.png");
+                                                            $('#vtora').attr("src","Sliki1/"+imee+"_Leech seed_hp1.png");
+                                                            $('#treta').attr("src","Sliki1/"+imee+"_Living armor_hp1.png");
+                                                            $('#ulty').attr("src","Sliki1/"+imee+"_Overgrowth_hp1.png");
+                                                            var prvac = $('#prva').attr("src");
+                                                            var vtorac = $('#vtora').attr("src");
+                                                            var tretac = $('#treta').attr("src");
+                                                            var ultyc = $('#ulty').attr("src");
+                                                            var prva = prvac.split("_")
+                                                            var vtora = vtorac.split("_");
+                                                            var treta = tretac.split("_");
+                                                            var ulty = ultyc.split("_");
+                                                            $("#prvat").html(prva[1]);
+                                                            $("#vtorat").html(vtora[1]);
+                                                            $("#tretat").html(treta[1]);
+                                                            $("#ultyt").html(ulty[1]);
+                                                            $("#prvatm").text("Turns you invis when you are within 265 radius of a tree for 6 seconds. Increasing movement speed by 10 while invisible, and causes a 0.4 seconds bash when attacking out of invisibility.");
+                                                            $("#vtoratm").text("Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it. Pulses 6 times.");
+                                                            $("#tretatm").text("Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also blocks some damage from all sources. Dispels when a number of damage instances are taken.");
+                                                            $("#ultytm").text("Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking.");
+                                                            }else if(imee==="Io"){
+                                                              var nestoo=$(this).attr('rel');
+                                                              $('#heroj').html(imee);
+                                                              $('.nesto').html(nestoo);
+                                                              $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                              $("#heroes").hide();
+                                                              $('#heroes1').show();
+                                                              $('#prva').attr("src","Sliki1/"+imee+"_Tether_hp1.png");
+                                                              $('#vtora').attr("src","Sliki1/"+imee+"_Spirits_hp1.png");
+                                                              $('#treta').attr("src","Sliki1/"+imee+"_Overcharge_hp1.png");
+                                                              $('#ulty').attr("src","Sliki1/"+imee+"_Relocate_hp1.png");
+                                                              var prvac = $('#prva').attr("src");
+                                                              var vtorac = $('#vtora').attr("src");
+                                                              var tretac = $('#treta').attr("src");
+                                                              var ultyc = $('#ulty').attr("src");
+                                                              var prva = prvac.split("_")
+                                                              var vtora = vtorac.split("_");
+                                                              var treta = tretac.split("_");
+                                                              var ulty = ultyc.split("_");
+                                                              $("#prvat").html(prva[1]);
+                                                              $("#vtorat").html(vtora[1]);
+                                                              $("#tretat").html(treta[1]);
+                                                              $("#ultyt").html(ulty[1]);
+                                                              $("#prvatm").text("Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gain 1.5x the amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.");
+                                                              $("#vtoratm").text("Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it. Creeps take minor damage from touching a particle spirit, but do not cause them to explode. When its duration ends, any remaining Spirits explode.");
+                                                              $("#tretatm").text("Io gains bonus attack speed and damage reduction, at the cost of draining a percentage of its current health and mana per second. If Io is Tethered to an ally, that unit also gains the bonuses.");
+                                                              $("#ultytm").text("Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain.");
+                                                            }else if(imee==="Centaur Warrunner"){
+                                                                            var nestoo=$(this).attr('rel');
+                                                                            $('#heroj').html(imee);
+                                                                            $('.nesto').html(nestoo);
+                                                                            $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                            $("#heroes").hide();
+                                                                            $('#heroes1').show();
+                                                                            $('#prva').attr("src","Sliki1/"+imee+"_Hoof stomp_hp1.png");
+                                                                            $('#vtora').attr("src","Sliki1/"+imee+"_Double edge_hp1.png");
+                                                                            $('#treta').attr("src","Sliki1/"+imee+"_Return_hp1.png");
+                                                                            $('#ulty').attr("src","Sliki1/"+imee+"_Stampede_hp1.png");
+                                                                            var prvac = $('#prva').attr("src");
+                                                                            var vtorac = $('#vtora').attr("src");
+                                                                            var tretac = $('#treta').attr("src");
+                                                                            var ultyc = $('#ulty').attr("src");
+                                                                            var prva = prvac.split("_")
+                                                                            var vtora = vtorac.split("_");
+                                                                            var treta = tretac.split("_");
+                                                                            var ulty = ultyc.split("_");
+                                                                            $("#prvat").html(prva[1]);
+                                                                            $("#vtorat").html(vtora[1]);
+                                                                            $("#tretat").html(treta[1]);
+                                                                            $("#ultyt").html(ulty[1]);
+                                                                            $("#prvatm").text("Slams the ground, stunning and damaging nearby enemy units.");
+                                                                            $("#vtoratm").text("Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target. Centaur cannot die from Double Edge.");
+                                                                            $("#tretatm").text("Centaur applies an aura to nearby allied units. Causes allies to counters every attack, damaging the attacker based on a percentage of Centaur's strength.");
+                                                                            $("#ultytm").text("Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once. Upgradable by Aghanim's Scepter.");
+                                                                            }else if(imee==="Timbersaw"){
+                                                                                            var nestoo=$(this).attr('rel');
+                                                                                            $('#heroj').html(imee);
+                                                                                            $('.nesto').html(nestoo);
+                                                                                            $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                            $("#heroes").hide();
+                                                                                            $('#heroes1').show();
+                                                                                            $('#prva').attr("src","Sliki1/"+imee+"_Whirling death_hp1.png");
+                                                                                            $('#vtora').attr("src","Sliki1/"+imee+"_Timber chain_hp1.png");
+                                                                                            $('#treta').attr("src","Sliki1/"+imee+"_Reactive armor_hp1.png");
+                                                                                            $('#ulty').attr("src","Sliki1/"+imee+"_Chakram_hp1.png");
+                                                                                            var prvac = $('#prva').attr("src");
+                                                                                            var vtorac = $('#vtora').attr("src");
+                                                                                            var tretac = $('#treta').attr("src");
+                                                                                            var ultyc = $('#ulty').attr("src");
+                                                                                            var prva = prvac.split("_")
+                                                                                            var vtora = vtorac.split("_");
+                                                                                            var treta = tretac.split("_");
+                                                                                            var ulty = ultyc.split("_");
+                                                                                            $("#prvat").html(prva[1]);
+                                                                                            $("#vtorat").html(vtora[1]);
+                                                                                            $("#tretat").html(treta[1]);
+                                                                                            $("#ultyt").html(ulty[1]);
+                                                                                            $("#prvatm").text("Timbersaw whirls extremely sharp edges, damaging enemies and destroying trees around him in an area. If an enemy hero is affected, it loses some of its primary attribute for a short duration. Whirling Death will deal Pure damage if a tree is cut down in the process.");
+                                                                                            $("#vtoratm").text("Timbersaw fires a chain that embeds itself in the first tree it hits, pulling him towards it. Any enemy in the path takes damage.");
+                                                                                            $("#tretatm").text("Each time Timbersaw is attacked, he gains increased health regen and armor.");
+                                                                                            $("#ultytm").text("Fires your main saw blade at the target location where it will spin in place, dealing damage in an area around it. Enemies caught in the saw blade will move more slowly for every 5% of health missing. The blade deals damage and cuts down trees in its path when fired and retracted. While active the ability costs mana, and you lose the ability to attack. Upgradable by Aghanim's Scepter.");
+                                                                                          }else if(imee==="Bristleback"){
+                                                                                                            var nestoo=$(this).attr('rel');
+                                                                                                            $('#heroj').html(imee);
+                                                                                                            $('.nesto').html(nestoo);
+                                                                                                            $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                            $("#heroes").hide();
+                                                                                                            $('#heroes1').show();
+                                                                                                            $('#prva').attr("src","Sliki1/"+imee+"_Viscous nasal goo_hp1.png");
+                                                                                                            $('#vtora').attr("src","Sliki1/"+imee+"_Quill spray_hp1.png");
+                                                                                                            $('#treta').attr("src","Sliki1/"+imee+"_Bristleback_hp1.png");
+                                                                                                            $('#ulty').attr("src","Sliki1/"+imee+"_Warpath_hp1.png");
+                                                                                                            var prvac = $('#prva').attr("src");
+                                                                                                            var vtorac = $('#vtora').attr("src");
+                                                                                                            var tretac = $('#treta').attr("src");
+                                                                                                            var ultyc = $('#ulty').attr("src");
+                                                                                                            var prva = prvac.split("_")
+                                                                                                            var vtora = vtorac.split("_");
+                                                                                                            var treta = tretac.split("_");
+                                                                                                            var ulty = ultyc.split("_");
+                                                                                                            $("#prvat").html(prva[1]);
+                                                                                                            $("#vtorat").html(vtora[1]);
+                                                                                                            $("#tretat").html(treta[1]);
+                                                                                                            $("#ultyt").html(ulty[1]);
+                                                                                                            $("#prvatm").text("Covers a target in snot, causing it to have reduced armor and movement speed. Multiple casts stack and refresh the duration. Upgradable by Aghanim's Scepter.");
+                                                                                                            $("#vtoratm").text("Sprays enemy units with quills dealing damage in an area of effect around Bristleback. Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.");
+                                                                                                            $("#tretatm").text("Bristleback takes less damage if hit on the sides or rear. If Bristleback takes 210 damage from the rear, he releases a Quill Spray of the current level.");
+                                                                                                            $("#ultytm").text("Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage. Upgradable by Aghanim's Scepter.");
+                                                                                                            }else if(imee==="Bristleback"){
+                                                                                                                              var nestoo=$(this).attr('rel');
+                                                                                                                              $('#heroj').html(imee);
+                                                                                                                              $('.nesto').html(nestoo);
+                                                                                                                              $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                              $("#heroes").hide();
+                                                                                                                              $('#heroes1').show();
+                                                                                                                              $('#prva').attr("src","Sliki1/"+imee+"_Viscous nasal goo_hp1.png");
+                                                                                                                              $('#vtora').attr("src","Sliki1/"+imee+"_Quill spray_hp1.png");
+                                                                                                                              $('#treta').attr("src","Sliki1/"+imee+"_Bristleback_hp1.png");
+                                                                                                                              $('#ulty').attr("src","Sliki1/"+imee+"_Warpath_hp1.png");
+                                                                                                                              var prvac = $('#prva').attr("src");
+                                                                                                                              var vtorac = $('#vtora').attr("src");
+                                                                                                                              var tretac = $('#treta').attr("src");
+                                                                                                                              var ultyc = $('#ulty').attr("src");
+                                                                                                                              var prva = prvac.split("_")
+                                                                                                                              var vtora = vtorac.split("_");
+                                                                                                                              var treta = tretac.split("_");
+                                                                                                                              var ulty = ultyc.split("_");
+                                                                                                                              $("#prvat").html(prva[1]);
+                                                                                                                              $("#vtorat").html(vtora[1]);
+                                                                                                                              $("#tretat").html(treta[1]);
+                                                                                                                              $("#ultyt").html(ulty[1]);
+                                                                                                                              $("#prvatm").text("Covers a target in snot, causing it to have reduced armor and movement speed. Multiple casts stack and refresh the duration. Upgradable by Aghanim's Scepter.");
+                                                                                                                              $("#vtoratm").text("Sprays enemy units with quills dealing damage in an area of effect around Bristleback. Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.");
+                                                                                                                              $("#tretatm").text("Bristleback takes less damage if hit on the sides or rear. If Bristleback takes 210 damage from the rear, he releases a Quill Spray of the current level.");
+                                                                                                                              $("#ultytm").text("Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage. Upgradable by Aghanim's Scepter.");
+                                                                                                                            }else if(imee==="Tusk"){
+                                                                                                                                                var nestoo=$(this).attr('rel');
+                                                                                                                                                $('#heroj').html(imee);
+                                                                                                                                                $('.nesto').html(nestoo);
+                                                                                                                                                $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                                                $("#heroes").hide();
+                                                                                                                                                $('#heroes1').show();
+                                                                                                                                                $('#prva').attr("src","Sliki1/"+imee+"_Ice shards_hp1.png");
+                                                                                                                                                $('#vtora').attr("src","Sliki1/"+imee+"_Snowball_hp1.png");
+                                                                                                                                                $('#treta').attr("src","Sliki1/"+imee+"_Frozen sigil_hp1.png");
+                                                                                                                                                $('#ulty').attr("src","Sliki1/"+imee+"_Walrus punch_hp1.png");
+                                                                                                                                                var prvac = $('#prva').attr("src");
+                                                                                                                                                var vtorac = $('#vtora').attr("src");
+                                                                                                                                                var tretac = $('#treta').attr("src");
+                                                                                                                                                var ultyc = $('#ulty').attr("src");
+                                                                                                                                                var prva = prvac.split("_")
+                                                                                                                                                var vtora = vtorac.split("_");
+                                                                                                                                                var treta = tretac.split("_");
+                                                                                                                                                var ulty = ultyc.split("_");
+                                                                                                                                                $("#prvat").html(prva[1]);
+                                                                                                                                                $("#vtorat").html(vtora[1]);
+                                                                                                                                                $("#tretat").html(treta[1]);
+                                                                                                                                                $("#ultyt").html(ulty[1]);
+                                                                                                                                                $("#prvatm").text("Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 7 seconds.");
+                                                                                                                                                $("#vtoratm").text("Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.");
+                                                                                                                                                $("#tretatm").text("Tusk summons a Frozen Sigil by calling upon the deepest cold of winter. The Sigil creates a snowstorm which slows all enemy units within 600 range.");
+                                                                                                                                                $("#ultytm").text("Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.");
+                                                                                                                                              }else if(imee==="Elder Titan"){
+                                                                                                                                                                    var nestoo=$(this).attr('rel');
+                                                                                                                                                                    $('#heroj').html(imee);
+                                                                                                                                                                    $('.nesto').html(nestoo);
+                                                                                                                                                                    $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                                                                    $("#heroes").hide();
+                                                                                                                                                                    $('#heroes1').show();
+                                                                                                                                                                    $('#prva').attr("src","Sliki1/"+imee+"_Echo stomp_hp1.png");
+                                                                                                                                                                    $('#vtora').attr("src","Sliki1/"+imee+"_Ancestral spirit_hp1.png");
+                                                                                                                                                                    $('#treta').attr("src","Sliki1/"+imee+"_Natural order_hp1.png");
+                                                                                                                                                                    $('#ulty').attr("src","Sliki1/"+imee+"_Earth splitter_hp1.png");
+                                                                                                                                                                    var prvac = $('#prva').attr("src");
+                                                                                                                                                                    var vtorac = $('#vtora').attr("src");
+                                                                                                                                                                    var tretac = $('#treta').attr("src");
+                                                                                                                                                                    var ultyc = $('#ulty').attr("src");
+                                                                                                                                                                    var prva = prvac.split("_")
+                                                                                                                                                                    var vtora = vtorac.split("_");
+                                                                                                                                                                    var treta = tretac.split("_");
+                                                                                                                                                                    var ulty = ultyc.split("_");
+                                                                                                                                                                    $("#prvat").html(prva[1]);
+                                                                                                                                                                    $("#vtorat").html(vtora[1]);
+                                                                                                                                                                    $("#tretat").html(treta[1]);
+                                                                                                                                                                    $("#ultyt").html(ulty[1]);
+                                                                                                                                                                    $("#prvatm").text("Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations. The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage.");
+                                                                                                                                                                    $("#vtoratm").text("Elder Titan sends forth his Astral Spirit, damaging any units it passes through. When the spirit rejoins the Titan, it grants bonus damage and movement speed for each unit it damaged. The Astral Spirit possesses the Echo Stomp, Return Spirit, and Natural Order abilities.");
+                                                                                                                                                                    $("#tretatm").text("Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units. The armor reduction is centered around the hero, while the magic armor reduction is centered around Astral Spirit.");
+                                                                                                                                                                    $("#ultytm").text("Sends forth a jagged crack in front of Elder Titan. After 3 seconds, the crack implodes, slowing movement while dealing damage to each enemy based on their maximum life. Half of the damage dealt is Magical damage, while the other half is Physical damage. Upgradable by Aghanim's Scepter.");
+                                                                                                                                                                  }else if(imee==="Legion Commander"){
+                                                                                                                                                                                          var nestoo=$(this).attr('rel');
+                                                                                                                                                                                          $('#heroj').html(imee);
+                                                                                                                                                                                          $('.nesto').html(nestoo);
+                                                                                                                                                                                          $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                                                                                          $("#heroes").hide();
+                                                                                                                                                                                          $('#heroes1').show();
+                                                                                                                                                                                          $('#prva').attr("src","Sliki1/"+imee+"_Overwhelming odds_hp1.png");
+                                                                                                                                                                                          $('#vtora').attr("src","Sliki1/"+imee+"_Press the attack_hp1.png");
+                                                                                                                                                                                          $('#treta').attr("src","Sliki1/"+imee+"_Moment of courage_hp1.png");
+                                                                                                                                                                                          $('#ulty').attr("src","Sliki1/"+imee+"_Duel_hp1.png");
+                                                                                                                                                                                          var prvac = $('#prva').attr("src");
+                                                                                                                                                                                          var vtorac = $('#vtora').attr("src");
+                                                                                                                                                                                          var tretac = $('#treta').attr("src");
+                                                                                                                                                                                          var ultyc = $('#ulty').attr("src");
+                                                                                                                                                                                          var prva = prvac.split("_")
+                                                                                                                                                                                          var vtora = vtorac.split("_");
+                                                                                                                                                                                          var treta = tretac.split("_");
+                                                                                                                                                                                          var ulty = ultyc.split("_");
+                                                                                                                                                                                          $("#prvat").html(prva[1]);
+                                                                                                                                                                                          $("#vtorat").html(vtora[1]);
+                                                                                                                                                                                          $("#tretat").html(treta[1]);
+                                                                                                                                                                                          $("#ultyt").html(ulty[1]);
+                                                                                                                                                                                          $("#prvatm").text("Turns the enemies' numbers against them, dealing damage and granting you bonus movement speed per unit or per hero. Deals bonus damage to illusions and summoned units as a percent of their current health.");
+                                                                                                                                                                                          $("#vtoratm").text("Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time. DISPEL TYPE: Strong Dispel");
+                                                                                                                                                                                          $("#tretatm").text("When attacked, Legion Commander has a chance to immediately counterattack with bonus lifesteal.");
+                                                                                                                                                                                          $("#ultytm").text("Legion Commander and the target enemy hero are forced to attack each other for a short duration. Neither hero can use items or abilities. If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage. Upgradable by Aghanim's Scepter.");
+                                                                                                                                                                                        }else if(imee==="Earth Spirit"){
+                                                                                                                                                                                                                  var nestoo=$(this).attr('rel');
+                                                                                                                                                                                                                  $('#heroj').html(imee);
+                                                                                                                                                                                                                  $('.nesto').html(nestoo);
+                                                                                                                                                                                                                  $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                                                                                                                  $("#heroes").hide();
+                                                                                                                                                                                                                  $('#heroes1').show();
+                                                                                                                                                                                                                  $('#prva').attr("src","Sliki1/"+imee+"_Boulder smash_hp1.png");
+                                                                                                                                                                                                                  $('#vtora').attr("src","Sliki1/"+imee+"_Rolling boulder_hp1.png");
+                                                                                                                                                                                                                  $('#treta').attr("src","Sliki1/"+imee+"_Geomagnetic grip_hp1.png");
+                                                                                                                                                                                                                  $('#ulty').attr("src","Sliki1/"+imee+"_Magnetize_hp1.png");
+                                                                                                                                                                                                                  var prvac = $('#prva').attr("src");
+                                                                                                                                                                                                                  var vtorac = $('#vtora').attr("src");
+                                                                                                                                                                                                                  var tretac = $('#treta').attr("src");
+                                                                                                                                                                                                                  var ultyc = $('#ulty').attr("src");
+                                                                                                                                                                                                                  var prva = prvac.split("_")
+                                                                                                                                                                                                                  var vtora = vtorac.split("_");
+                                                                                                                                                                                                                  var treta = tretac.split("_");
+                                                                                                                                                                                                                  var ulty = ultyc.split("_");
+                                                                                                                                                                                                                  $("#prvat").html(prva[1]);
+                                                                                                                                                                                                                  $("#vtorat").html(vtora[1]);
+                                                                                                                                                                                                                  $("#tretat").html(treta[1]);
+                                                                                                                                                                                                                  $("#ultyt").html(ulty[1]);
+                                                                                                                                                                                                                  $("#prvatm").text("Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest Stone Remnant in a 200 radius. The travelling unit or Remnant damages all enemy units it hits. If an enemy is hit by a Stone Remnant, they are also stunned. Stone Remnants travel further than other units.");
+                                                                                                                                                                                                                  $("#vtoratm").text("Earth Spirit gathers himself into a boulder and, after a 0.6s delay, rolls toward the target location, damaging enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and enemies hit by the boulder will have their movement speed slowed.");
+                                                                                                                                                                                                                  $("#tretatm").text("Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced, and take damage if the gripped target is a Stone Remnant. Upgradable by Aghanim's Scepter.");
+                                                                                                                                                                                                                  $("#ultytm").text("Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by silence or slows as a result of Geomagnetic Grip or Rolling Boulder, all magnetized heroes share the effects.");
+                                                                                                                                                                                                                }else if(imee==="Phoenix"){
+                                                                                                                                                                                                                                            var nestoo=$(this).attr('rel');
+                                                                                                                                                                                                                                            $('#heroj').html(imee);
+                                                                                                                                                                                                                                            $('.nesto').html(nestoo);
+                                                                                                                                                                                                                                            $('#slikap').attr("src","Sliki1/"+imee+"_full.png");
+                                                                                                                                                                                                                                            $("#heroes").hide();
+                                                                                                                                                                                                                                            $('#heroes1').show();
+                                                                                                                                                                                                                                            $('#prva').attr("src","Sliki1/"+imee+"_Icarus dive_hp1.png");
+                                                                                                                                                                                                                                            $('#vtora').attr("src","Sliki1/"+imee+"_Fire spirits_hp1.png");
+                                                                                                                                                                                                                                            $('#treta').attr("src","Sliki1/"+imee+"_Sun ray_hp1.png");
+                                                                                                                                                                                                                                            $('#ulty').attr("src","Sliki1/"+imee+"_Supernova_hp1.png");
+                                                                                                                                                                                                                                            var prvac = $('#prva').attr("src");
+                                                                                                                                                                                                                                            var vtorac = $('#vtora').attr("src");
+                                                                                                                                                                                                                                            var tretac = $('#treta').attr("src");
+                                                                                                                                                                                                                                            var ultyc = $('#ulty').attr("src");
+                                                                                                                                                                                                                                            var prva = prvac.split("_")
+                                                                                                                                                                                                                                            var vtora = vtorac.split("_");
+                                                                                                                                                                                                                                            var treta = tretac.split("_");
+                                                                                                                                                                                                                                            var ulty = ultyc.split("_");
+                                                                                                                                                                                                                                            $("#prvat").html(prva[1]);
+                                                                                                                                                                                                                                            $("#vtorat").html(vtora[1]);
+                                                                                                                                                                                                                                            $("#tretat").html(treta[1]);
+                                                                                                                                                                                                                                            $("#ultyt").html(ulty[1]);
+                                                                                                                                                                                                                                            $("#prvatm").text("Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.");
+                                                                                                                                                                                                                                            $("#vtoratm").text("Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.");
+                                                                                                                                                                                                                                            $("#tretatm").text("Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire.");
+                                                                                                                                                                                                                                            $("#ultytm").text("The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities. Upgradable by Aghanim's Scepter. DISPEL TYPE: Strong Dispel");
+                                                                                                                                                                                                                                            }
+
+
+  });
+});
+</script>
+</html>

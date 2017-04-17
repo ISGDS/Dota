@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="shortcut icon" href="Sliki/index.png" type="image/png">
+    <title>Quiz</title>
+    <style>
+    body{
+      background-color: #0d0d0d;
+
+
+    }
+    .ramka{
+      border:1px solid black;
+      border-radius: 5px;
+      background-color: black;
+      margin:auto;
+      margin-top:10px;
+      color:white;
+    }
+    .sliki{
+      width:90px;
+      height:60px;
+    }
+	#table_1{
+		background-color:white;
+		border: 4px solid black;
+		width:550px;
+		height:600px;
+		color:black;
+		text-align:center;
+		margin:auto;
+
+
+	}
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-center" style="padding-bottom:10px;">
+  <div class="container-fluid" >
+
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+
+      </button>
+      <a class="navbar-brand" href="Home.html"><img src="Sliki/logo.png"></img></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home<span class="sr-only"></a></li>
+        <li><a href="Heroes.html">Heroes</a></li>
+		<li><a href="Items.html">Items</a></li>
+		<li><a href="Guides.html">Guides</a></li>
+		<li class="active"><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+
+<div id="table_1">
+
+<h2>Quiz</h2>
+<hr>
+
+<div id="question01"></div>
+<div id="rez"></div>
+<p id="msg01"></p>
+<br />
+<br />
+
+<div id="starter01">
+<button onclick="begin001()" id="b001" class="btn btn-lg">Begin</button><br />
+</div>
+<p id="n001"></p>
+
+<script>
+
+function begin001() {
+
+document.getElementById("question01").innerHTML = "<img src='Sliki/mirana.gif' style='width:200px;height:250px'>" +
+"<br /><br /><br />" + "<button onclick=function1() id=q1 class='btn btn-lg btn-block'>Mirana</button><br />" +
+"<button onclick=function2() id=q2 class='btn btn-lg btn-block'>Zeus</button><br />" +
+"<button onclick=function3() id=q3 class='btn btn-lg btn-block'>Ursa</button><br />";
+document.getElementById("starter01").innerHTML = "";
+}
+function function1() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-success' style='padding:30px;'>Correct</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt1()>Next</button><br />";
+}
+function function2() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-danger' style='padding:30px;'>Incorrect</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt1()>Next</button><br />";
+}
+function function3() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-danger' style='padding:30px;'>Incorrect</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt1()>Next</button><br />";
+}
+function nxt1() {
+document.getElementById("question01").innerHTML = "<img src='Sliki/ember.gif' style='width:200px;height:250px'>" + "<br /><br /><br />" +
+"<button class='btn btn-lg btn-block' onclick=function4() id=q4>Pudge</button><br />" +
+ "<button class='btn btn-lg btn-block' onclick=function5() id=q5>Rubick</button><br />" + "<button class='btn btn-lg btn-block' onclick=function6() id=q6>Ember Spirit</button><br />";
+document.getElementById("n001").innerHTML = "";
+}
+function function4() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-danger' style='padding:30px;'>Incorrect</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt2()>Next</button><br />";
+}
+function function5() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-danger' style='padding:30px;'>Incorrect</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt2()>Next</button><br />";
+}
+function function6() {
+document.getElementById("question01").innerHTML = "<h4 class='bg-success' style='padding:30px;'>Correct</h4>";
+document.getElementById("starter01").innerHTML = "";
+document.getElementById("n001").innerHTML = "<button class='btn btn-lg ' onclick=nxt2()>Next</button><br />";
+}
+function nxt2() {
+document.getElementById("question01").innerHTML = "";
+document.getElementById("msg01").innerHTML = "<h3>End of Quiz.</h3>";
+document.getElementById("n001").innerHTML = "";
+}
+</script>
+</div>
+</div>
+</html>

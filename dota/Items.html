@@ -1,0 +1,338 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="shortcut icon" href="Sliki/index.png" type="image/png">
+    <title>Items</title>
+    <style>
+       body{
+      background-color: #0d0d0d;
+
+
+    }
+    .ramka{
+      border:1px solid black;
+      border-radius: 5px;
+      background-color: black;
+      margin:auto;
+      margin-top:10px;
+      color:white;
+    }
+    .ramka{
+      border:1px solid black;
+      border-radius: 5px;
+      background-color: black;
+      margin:auto;
+      margin-top:10px;
+      color:white;
+    }
+    .sliki{
+      width:90px;
+      height:60px;
+    }
+.imgWrap {
+  position: relative;
+
+}
+.imgDescription {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0d0d0d;
+  color: white;
+  visibility: hidden;
+  opacity: 1;
+  font-family:Verdana;
+  font-weight: bold;
+
+      -webkit-transition: visibility opacity 0.2s;
+
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-center" style="padding-bottom:10px;">
+  <div class="container-fluid" >
+
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+
+      </button>
+      <a class="navbar-brand" href="Home.html"><img src="Sliki/logo.png"></img></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home<span class="sr-only"></a></li>
+        <li><a href="Heroes.html">Heroes</a></li>
+		<li  class="active"><a href="Items.html">Items</a></li>
+		<li><a href="Guides.html">Guides</a></li>
+		<li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container col-lg-10 col-lg-offset-1 " id="items">
+  <div class="row col-lg-12 ramka" >
+    <h3 style="text-align:center;">Items</h3>
+  </div>
+  <div class="row col-lg-12">
+    <div class="col-lg-6">
+      <h4 style="color:white;">Basics</h4>
+     <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Clarity" src="Sliki/clarity_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Gauntlets" src="Sliki/gauntlets_lg.png">
+        </div>
+        <div class="col-lg-2">
+          <img title="Stout Shield" src="Sliki/stout_shield_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Magic stick" src="Sliki/magic_stick_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Faerie Fire" src="Sliki/faerie_fire_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Ring of Protection" src="Sliki/ring_of_protection_lg.png"></img>
+        </div>
+      </div>
+      <div class="row col-lg-12">
+        <div class="col-lg-2">
+        <img title="Healing salve" src="Sliki/healingslave.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Ring of Regen" src="Sliki/ring_of_regen_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Slippers" src="Sliki/slippers_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Sobi Mask" src="Sliki/sobi_mask_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Quelling Blade" src="Sliki/quelling_blade_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Tango" src="Sliki/tango_lg.png"></img>
+        </div>
+      </div>
+     <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Wind Lace" src="Sliki/wind_lace_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Boots" src="Sliki/boots_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Blight Stone" src="Sliki/blight_stone_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Branches" src="Sliki/branches_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Circlet" src="Sliki/circlet_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Infused raindrop" src="Sliki/infused_raindrop_lg.png">
+        </div>
+      </div>
+     <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Mango" src="Sliki/enchanted_mango_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Mante" src="Sliki/mantle_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Smoke of Deceit" src="Sliki/smoke_of_deceit_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Gloves" src="Sliki/gloves_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Belt of Strength" src="Sliki/belt_of_strength_lg.png"></img></div>
+		 <div class="col-lg-2">
+         <img title="Orb of venom" src="Sliki/orb_of_venom_lg.png"></img>
+        </div>
+        </div>
+
+		<div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Blades of Attack" src="Sliki/blades_of_attack_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Boots of Evlesnskin" src="Sliki/boots_of_elves_lg.png">
+        </div>
+        <div class="col-lg-2">
+          <img title="Dust of Appearance" src="Sliki/dust_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Cloak" src="Sliki/cloak_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Teleport Scroll" src="Sliki/tpscroll_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Robe of magi" src="Sliki/robe_lg.png"></img>
+        </div>
+      </div>
+
+      </div>
+
+
+    <div class="col-lg-6">
+      <h4 style="color:white;">Upgrades<h4>
+
+
+	  <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Ring of Basilius" src="Sliki/ring_of_basilius_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Glimmer Cape" src="Sliki/glimmer_cape_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Cristalys" src="Sliki/lesser_crit_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Hood of Defiance" src="Sliki/hood_of_defiance_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Mask of Madness" src="Sliki/mask_of_madness_lg.png">
+        </div>
+		<div class="col-lg-2">
+          <img title="Null Talisman" src="Sliki/null_talisman_lg.png"></img>
+        </div>
+      </div>
+	  <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Iron Talon" src="Sliki/iron_talon_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Force Staff" src="Sliki/force_staff_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Armlet" src="Sliki/armlet_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Vanguard" src="Sliki/vanguard_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Helm of the Dominator" src="Sliki/helm_of_the_dominator_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Headress" src="Sliki/headdress_lg.png"></img>
+        </div>
+      </div>
+	  <div class="row col-lg-12">
+        <div class="col-lg-2">
+         <img title="Veil of Discord" src="Sliki/veil_of_discord_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Shadow Blade" src="Sliki/invis_sword_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Blade Mail" src="Sliki/blade_mail_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Dragon Lance" src="Sliki/dragon_lance_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+         <img title="Poor mans shield" src="Sliki/poor_mans_shield_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Buckler" src="Sliki/buckler_lg.png"></img>
+        </div>
+      </div>
+	  <div class="row col-lg-12">
+        <div class="col-lg-2">
+          <img title="Aether Lens" src="Sliki/aether_lens_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Basher" src="Sliki/basher_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Soul booster" src="Sliki/soul_booster_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Sange" src="Sliki/sange_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Bracer" src="Sliki/bracer_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Urn of shadows" src="Sliki/urn_of_shadows_lg.png"></img>
+        </div>
+      </div>
+	  <div class="row col-lg-12">
+        <div class="col-lg-2">
+          <img title="Necronomicon" src="Sliki/necronomicon_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Battlefury" src="Sliki/bfury_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Crimson guard" src="Sliki/crimson_guard_lg.png"></img>
+        </div>
+        <div class="col-lg-2">
+          <img title="Yasha" src="Sliki/yasha_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Soul Ring" src="Sliki/soul_ring_lg.png"></img>
+        </div>
+		<div class="col-lg-2">
+          <img title="Dagon" src="Sliki/dagon_lg.png"></img>
+        </div>
+      </div>
+	  </div>
+    </div>
+	</div>
+  </div>
+
+</body>
+<script>
+$( function() {
+  $( document ).tooltip();
+} );
+</script>
+</html>
